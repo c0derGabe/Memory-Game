@@ -1,0 +1,40 @@
+body {
+	background-image: url('blotch pic1.jpg');
+}
+#game div {
+	border: 1px solid black;
+	border-radius: 6px;
+	width: 15%;
+	height: 200px;
+	margin: 10px;
+	display: inline-block;
+	background-color: white;
+}
+
+#scoreBoard {
+	font-family: 'Orbitron', sans-serif;
+	font-size: 1em;
+	font-weight: 500;
+	color: rgb(241, 50, 178);
+	border: white solid 2px;
+	width: 200px;
+	text-align: center;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+}
+
+h1 {
+	text-align: center;
+	color: white;
+	-webkit-text-stroke: 2px rgb(241, 50, 178);
+}
+
+button {
+	background: seashell;
+	color: rgb(241, 72, 171);
+	border-color: rgb(50, 222, 245);
+	border-radius: 12px;
+}
